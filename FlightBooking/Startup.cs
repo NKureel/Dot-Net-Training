@@ -50,6 +50,7 @@ namespace FlightBooking
                 };
             });   
             services.AddControllers();
+            services.AddSwaggerGen();
             services.AddSingleton<IAdminAuthenticate, AdminAuthenticateManager>();
         }
 
@@ -60,13 +61,14 @@ namespace FlightBooking
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            app.UseSwagger();
+            app.UseSwaggerUI();
             app.UseHttpsRedirection();
 
             app.UseRouting();
             app.UseAuthentication();
             app.UseAuthorization();
-
+            
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();

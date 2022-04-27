@@ -4,3 +4,11 @@ JWT Bearer
 2. Add the Authentication service along with addJwtBearer with ValidateIssuer,ValidateAudience,ValidateLifetime,ValidateIssuerSigningKey
 IssuerSigningKey which includes encoding of UTF-8 with Jwt Key, ValidIssuer with value Jwt Issuer,ValidAudience with value Jwt Audience
 3. Add App.UseAuthentication in congifuration of startup file ,it is necessary to add if dnt add then not allow to access the other controller
+4. Authenticate the user
+5. Access the Authenticate in controller
+
+Swagger
+Donwload Dependency
+Add UseApp.Swagger(),UseApp.SwaggerUI();
+Add Services.SwaggerGen()
+Run and open the link as Swagger/index.html
