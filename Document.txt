@@ -3,3 +3,4 @@ JWT Bearer
 1. Need to Add Key, Issuer, Audience in appSettingJson file for JWT
 2. Add the Authentication service along with addJwtBearer with ValidateIssuer,ValidateAudience,ValidateLifetime,ValidateIssuerSigningKey
 IssuerSigningKey which includes encoding of UTF-8 with Jwt Key, ValidIssuer with value Jwt Issuer,ValidAudience with value Jwt Audience
+3. Add App.UseAuthentication in congifuration of startup file ,it is necessary to add if dnt add then not allow to access the other controller

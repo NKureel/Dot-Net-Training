@@ -1,3 +1,5 @@
+using FlightBooking.Interfaces;
+using FlightBooking.JWTManager;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -34,7 +36,7 @@ namespace FlightBooking
                 x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
             }).AddJwtBearer(o =>
             {
-                var key = Encoding.UTF8.GetBytes(Configuration["Jwt:Key"]);
+                var key = Encoding.UTF8.GetBytes(Configuration["JWT:Key"]);
                 o.SaveToken = true;
                 o.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
                 {
@@ -42,12 +44,13 @@ namespace FlightBooking
                     ValidateAudience = true,
                     ValidateLifetime = true,
                     ValidateIssuerSigningKey = true,
-                    ValidIssuer = Configuration["Jwt:Issuer"],
-                    ValidAudience = Configuration["Jwt:Audience"],
+                    ValidIssuer = Configuration["JWT:Issuer"],
+                    ValidAudience = Configuration["JWT:Audience"],
                     IssuerSigningKey = new SymmetricSecurityKey(key)
                 };
             });   
-            services.AddControllers();            
+            services.AddControllers();
+            services.AddSingleton<IAdminAuthenticate, AdminAuthenticateManager>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

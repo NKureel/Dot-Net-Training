@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\student\\Desktop\\Dot-Net-Training\\FlightBooking\\FlightBooking.csproj": {}
+    "C:\\Users\\student\\Desktop\\Dot-Net-Training\\Dot-Net-Training\\FlightBooking\\FlightBooking.csproj": {}
   },
   "projects": {
-    "C:\\Users\\student\\Desktop\\Dot-Net-Training\\FlightBooking\\FlightBooking.csproj": {
+    "C:\\Users\\student\\Desktop\\Dot-Net-Training\\Dot-Net-Training\\FlightBooking\\FlightBooking.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\student\\Desktop\\Dot-Net-Training\\FlightBooking\\FlightBooking.csproj",
+        "projectUniqueName": "C:\\Users\\student\\Desktop\\Dot-Net-Training\\Dot-Net-Training\\FlightBooking\\FlightBooking.csproj",
         "projectName": "FlightBooking",
-        "projectPath": "C:\\Users\\student\\Desktop\\Dot-Net-Training\\FlightBooking\\FlightBooking.csproj",
+        "projectPath": "C:\\Users\\student\\Desktop\\Dot-Net-Training\\Dot-Net-Training\\FlightBooking\\FlightBooking.csproj",
         "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\student\\Desktop\\Dot-Net-Training\\FlightBooking\\obj\\",
+        "outputPath": "C:\\Users\\student\\Desktop\\Dot-Net-Training\\Dot-Net-Training\\FlightBooking\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -49,6 +49,16 @@
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[3.1.20, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.15, )"
             }
           },
           "imports": [
