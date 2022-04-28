@@ -15,10 +15,21 @@ namespace AirlineManagement.Controllers
     [ApiController]
     public class AirlineController : ControllerBase
     {
-        private readonly AirlineRepository _airlineRepository;
-        public AirlineController(AirlineRepository airlineDetail)
+        private readonly IAirlineRepository _airlineRepository;
+        public AirlineController(IAirlineRepository airlineDetail)
         {
             _airlineRepository = airlineDetail;
+        }
+
+        [HttpGet]
+        [Route("GetAllAirline")]
+        public IActionResult Get()
+        {
+            var airline = _airlineRepository.GetAirlines();
+            if (airline != null)
+                return new OkObjectResult(airline);
+            else
+                return new NotFoundResult();
         }
 
         [HttpGet]

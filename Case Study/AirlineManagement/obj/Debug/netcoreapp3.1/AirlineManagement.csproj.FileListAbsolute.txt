@@ -60,9 +60,9 @@ D:\Training\Dot-Net-Training\Case Study\AirlineManagement\bin\Debug\netcoreapp3.
 D:\Training\Dot-Net-Training\Case Study\AirlineManagement\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 D:\Training\Dot-Net-Training\Case Study\AirlineManagement\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 D:\Training\Dot-Net-Training\Case Study\AirlineManagement\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\Training\Dot-Net-Training\Case Study\AirlineManagement\obj\Debug\netcoreapp3.1\AirlineManagement.csproj.CopyComplete
 D:\Training\Dot-Net-Training\Case Study\AirlineManagement\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
 D:\Training\Dot-Net-Training\Case Study\AirlineManagement\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 D:\Training\Dot-Net-Training\Case Study\AirlineManagement\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Training\Dot-Net-Training\Case Study\AirlineManagement\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\Training\Dot-Net-Training\Case Study\AirlineManagement\obj\Debug\netcoreapp3.1\AirlineManagement.MvcApplicationPartsAssemblyInfo.cs
+D:\Training\Dot-Net-Training\Case Study\AirlineManagement\obj\Debug\netcoreapp3.1\AirlineManagement.csproj.AssemblyReference.cache
