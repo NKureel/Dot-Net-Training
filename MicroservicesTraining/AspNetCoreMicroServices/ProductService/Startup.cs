@@ -1,3 +1,4 @@
+using Common;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -30,6 +31,7 @@ namespace ProductService
             services.AddControllers();
             services.AddDbContext<ProductDBContext>(o => o.UseSqlServer(Configuration.GetConnectionString("DefaultConnectionString")));
             services.AddTransient<IProductRepository, ProductRepository>();
+            services.AddConsulConfig(Configuration);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -39,7 +41,7 @@ namespace ProductService
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            app.UseConsul(Configuration);
             app.UseRouting();
 
             app.UseAuthorization();

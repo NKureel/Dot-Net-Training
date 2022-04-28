@@ -187,3 +187,7 @@ D:\Training\Dot-Net-Training\MicroservicesTraining\AspNetCoreMicroServices\Produ
 D:\Training\Dot-Net-Training\MicroservicesTraining\AspNetCoreMicroServices\ProductService\obj\Debug\netcoreapp3.1\ProductService.dll
 D:\Training\Dot-Net-Training\MicroservicesTraining\AspNetCoreMicroServices\ProductService\obj\Debug\netcoreapp3.1\ProductService.pdb
 D:\Training\Dot-Net-Training\MicroservicesTraining\AspNetCoreMicroServices\ProductService\obj\Debug\netcoreapp3.1\ProductService.genruntimeconfig.cache
+D:\Training\Dot-Net-Training\MicroservicesTraining\AspNetCoreMicroServices\ProductService\bin\Debug\netcoreapp3.1\Consul.dll
+D:\Training\Dot-Net-Training\MicroservicesTraining\AspNetCoreMicroServices\ProductService\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+D:\Training\Dot-Net-Training\MicroservicesTraining\AspNetCoreMicroServices\ProductService\bin\Debug\netcoreapp3.1\Common.dll
+D:\Training\Dot-Net-Training\MicroservicesTraining\AspNetCoreMicroServices\ProductService\bin\Debug\netcoreapp3.1\Common.pdb
