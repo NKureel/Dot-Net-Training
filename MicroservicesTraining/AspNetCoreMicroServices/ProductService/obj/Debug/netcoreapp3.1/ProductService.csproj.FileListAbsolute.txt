@@ -191,3 +191,4 @@ D:\Training\Dot-Net-Training\MicroservicesTraining\AspNetCoreMicroServices\Produ
 D:\Training\Dot-Net-Training\MicroservicesTraining\AspNetCoreMicroServices\ProductService\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
 D:\Training\Dot-Net-Training\MicroservicesTraining\AspNetCoreMicroServices\ProductService\bin\Debug\netcoreapp3.1\Common.dll
 D:\Training\Dot-Net-Training\MicroservicesTraining\AspNetCoreMicroServices\ProductService\bin\Debug\netcoreapp3.1\Common.pdb
+D:\Training\Dot-Net-Training\MicroservicesTraining\AspNetCoreMicroServices\ProductService\obj\Debug\netcoreapp3.1\ProductService.csproj.CopyComplete

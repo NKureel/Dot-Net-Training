@@ -1,0 +1,9 @@
+D:\Training\Dot-Net-Training\Shared.Models\bin\Debug\netcoreapp3.1\Shared.Models.deps.json
+D:\Training\Dot-Net-Training\Shared.Models\bin\Debug\netcoreapp3.1\Shared.Models.dll
+D:\Training\Dot-Net-Training\Shared.Models\bin\Debug\netcoreapp3.1\Shared.Models.pdb
+D:\Training\Dot-Net-Training\Shared.Models\obj\Debug\netcoreapp3.1\Shared.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Training\Dot-Net-Training\Shared.Models\obj\Debug\netcoreapp3.1\Shared.Models.AssemblyInfoInputs.cache
+D:\Training\Dot-Net-Training\Shared.Models\obj\Debug\netcoreapp3.1\Shared.Models.AssemblyInfo.cs
+D:\Training\Dot-Net-Training\Shared.Models\obj\Debug\netcoreapp3.1\Shared.Models.csproj.CoreCompileInputs.cache
+D:\Training\Dot-Net-Training\Shared.Models\obj\Debug\netcoreapp3.1\Shared.Models.dll
+D:\Training\Dot-Net-Training\Shared.Models\obj\Debug\netcoreapp3.1\Shared.Models.pdb

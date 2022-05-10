@@ -332,7 +332,6 @@ D:\Training\Dot-Net-Training\MicroservicesTraining\AspNetCoreMicroServices\APIGa
 D:\Training\Dot-Net-Training\MicroservicesTraining\AspNetCoreMicroServices\APIGateway\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
 D:\Training\Dot-Net-Training\MicroservicesTraining\AspNetCoreMicroServices\APIGateway\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
 D:\Training\Dot-Net-Training\MicroservicesTraining\AspNetCoreMicroServices\APIGateway\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Training\Dot-Net-Training\MicroservicesTraining\AspNetCoreMicroServices\APIGateway\obj\Debug\netcoreapp3.1\APIGateway.csproj.AssemblyReference.cache
 D:\Training\Dot-Net-Training\MicroservicesTraining\AspNetCoreMicroServices\APIGateway\obj\Debug\netcoreapp3.1\APIGateway.GeneratedMSBuildEditorConfig.editorconfig
 D:\Training\Dot-Net-Training\MicroservicesTraining\AspNetCoreMicroServices\APIGateway\obj\Debug\netcoreapp3.1\APIGateway.AssemblyInfoInputs.cache
 D:\Training\Dot-Net-Training\MicroservicesTraining\AspNetCoreMicroServices\APIGateway\obj\Debug\netcoreapp3.1\APIGateway.AssemblyInfo.cs

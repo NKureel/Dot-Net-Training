@@ -29,7 +29,7 @@ namespace InventoryService
             services.AddMassTransit(x =>
             {
                 x.AddConsumer<OrderConsumer>();
-                x.UsingRabbitMq((context, cfg) =>
+                x.AddBus(provider => Bus.Factory.CreateUsingRabbitMq((cfg) =>
                 {
                     var uri = new Uri(Configuration["ServiceBus:Uri"]);
                     cfg.Host(uri, host =>
@@ -37,14 +37,15 @@ namespace InventoryService
                         host.Username(Configuration["ServiceBus:Username"]);
                         host.Password(Configuration["ServiceBus:Password"]);
                     });
-
-                    //exchange
+                   
 
                     cfg.ReceiveEndpoint(Configuration["ServiceBus:Queue"], c =>
                     {
-                        c.ConfigureConsumer<OrderConsumer>(context);
+                        c.PrefetchCount = 20;
+                        c.UseMessageRetry(r => r.Interval(2, 100));
+                        c.ConfigureConsumer<OrderConsumer>(provider);
                     });
-                });
+                }));
             });
         }
 

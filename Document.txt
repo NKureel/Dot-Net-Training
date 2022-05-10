@@ -12,3 +12,13 @@ Donwload Dependency
 Add UseApp.Swagger(),UseApp.SwaggerUI();
 Add Services.SwaggerGen()
 Run and open the link as Swagger/index.html
+
+
+
+
+
+
+
+
+
+

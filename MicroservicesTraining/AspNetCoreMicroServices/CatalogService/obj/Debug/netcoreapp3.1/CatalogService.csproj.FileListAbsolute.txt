@@ -69,3 +69,4 @@ D:\Training\Dot-Net-Training\MicroservicesTraining\AspNetCoreMicroServices\Catal
 D:\Training\Dot-Net-Training\MicroservicesTraining\AspNetCoreMicroServices\CatalogService\bin\Debug\netcoreapp3.1\Common.dll
 D:\Training\Dot-Net-Training\MicroservicesTraining\AspNetCoreMicroServices\CatalogService\bin\Debug\netcoreapp3.1\Common.pdb
 D:\Training\Dot-Net-Training\MicroservicesTraining\AspNetCoreMicroServices\CatalogService\obj\Debug\netcoreapp3.1\CatalogService.csproj.AssemblyReference.cache
+D:\Training\Dot-Net-Training\MicroservicesTraining\AspNetCoreMicroServices\CatalogService\obj\Debug\netcoreapp3.1\CatalogService.csproj.CopyComplete

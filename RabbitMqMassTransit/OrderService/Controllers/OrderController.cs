@@ -13,17 +13,19 @@ namespace OrderService.Controllers
     [ApiController]
     public class OrderController : ControllerBase
     {
-        IPublishEndpoint _publishEndPoint;
+        IBus _busService;
 
-        public OrderController(IPublishEndpoint publishEndpoint)
+        public OrderController(IBus busService)
         {
-            _publishEndPoint = publishEndpoint;
+            _busService = busService;
         }
 
         [HttpPost]
         public async Task<IActionResult> CreateOrder(Order order)
         {
-            await _publishEndPoint.Publish<Order>(order);
+            Uri uri = new Uri("rabbitmq://localhost/orderQueue");
+            var endpoint = await _busService.GetSendEndpoint(uri);
+            await endpoint.Send(order);
             return Ok();
         }
     }
